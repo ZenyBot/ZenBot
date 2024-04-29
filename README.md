@@ -14,12 +14,12 @@ Please note that ZenBot does not currently have a specific license. Therefore, i
 
 ## Usage Guide
 To use ZenBot, follow these steps:
-1.Go to [ZenBot]([https://zenbot-website.com](https://zenybot.github.io/ZenBot/)).
+1.Go to [ZenBot](https://zenybot.github.io/ZenBot/).
 2. fill out google form accordingly using instructions
 3. Wait 10-20 min to get the info
 
 ## Support and Feedback
-For any inquiries, support, or feedback regarding ZenBot, please go to our discord at [(discord)]([mailto:support@zenbot.com](https://discord.gg/ajev2eSakk)). We value your input and strive to provide exceptional assistance to our users.
+For any inquiries, support, or feedback regarding ZenBot, please go to our discord at [(discord)](https://discord.gg/ajev2eSakk)). We value your input and strive to provide exceptional assistance to our users.
 
 ## Disclaimer
 ZenBot is intended for educational and research purposes only. The use of ZenBot for any illegal or unethical activities is strictly prohibited. The developers and maintainers of ZenBot are not liable for any misuse or unauthorized use of the bot.
