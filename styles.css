@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-align: center; /* Center align all content */
+    overflow-y: hidden; /* Disable vertical scrolling initially */
+}
+
+header {
+    background-color: #2ecc71;
+    padding: 20px 0;
+    border-radius: 15px; /* Make the navbar rounded */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2ecc71;
+    padding: 10px;
+    z-index: 1000; /* Ensure the navigation bar is above other content */
+    display: flex;
+    justify-content: space-around; /* Distribute the links evenly with space around them */
+}
+
+nav a {
+    margin: 0 0.2rem; /* Adjust the spacing using rem for responsiveness */
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.section, .form-section {
+    padding: 50px 20px; /* Adjust the padding for compact sections */
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #860808;
+    font-size: 18px; /* Set initial font size */
+    transition: all 0.3s; /* Add smooth transition for hover effect */
+}
+
+a:hover {
+    color: #fff; /* Change text to white on hover */
+    font-size: 20px; /* Increase font size on hover */
+}
+
+#home, #about, .form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px; /* Adjusted padding for content */
+    margin-top: 0px; /* Adjust the margin to move the section below the fixed navbar */
+}
+
+#about {
+    margin-top: 50vh; /* Adjust the margin to move the section below the fixed navbar */
+}
+
+body.loaded #about {
+    margin-top: 0; /* Move the about section into the viewport after the page is loaded */
+}
+
+/* Adjust the padding for the form section */
+
+.form-section {
+    padding: 100px 20px; /* Increase the padding to make the form section taller */
+    margin-bottom: 100px; /* Adjust margin to create more space between sections */
+}
+
+body.loaded .form-section {
+    margin-bottom: 100px; /* Adjusted margin to create space above the footer */
+}
+
+p {
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.bold {
+    font-weight: bold; /* Make text bold for emphasis */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    font-size: 25px; /* Set initial font size */
+    transition: all 0.3s; /* Add smooth transition effect for hover */
+}
+
+ul li:hover {
+    font-size: 35px; /* Increase font size on hover */
+    color: #008000; /* Change text color to dark green on hover */
+}
+
+/* Additional CSS to fix the form position */
+iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
